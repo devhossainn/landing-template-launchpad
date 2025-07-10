@@ -62,7 +62,15 @@ body li {
   font-size: 16px;
   font-weight: 600;
   padding: 12px 36px;
+  border: 1px solid transparent;
   border-radius: 10px;
+  transition: all 0.3s ease-out;
+}
+/* button hover effect */
+.primary-button:hover {
+  color: var(--primary-color);
+  background: transparent;
+  border: 1px solid var(--primary-color);
 }
 .border-none {
   border: none;
@@ -154,7 +162,7 @@ header {
   scale: 0.9.8;
 }
 /*  users section styling*/
-.users-section {
+.productive-users-section {
   background: var(--primary-bg-color);
   padding: 50px 80px;
   border-radius: 24px;
@@ -172,4 +180,55 @@ header {
 }
 .users-data .users-data-subtitle {
   font-size: 20px;
+}
+
+/*user feedback section*/
+.feedback-items {
+  margin-top: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 36px;
+}
+.feedback-items .feedback-item {
+  padding: 24px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  transition: all 0.3s ease-out;
+}
+.star-icons {
+  margin-bottom: 16px;
+}
+.user-feedback-title {
+  color: var(--dark-grey);
+  font-size: 24px;
+  font-weight: 500;
+  margin: 16px 0;
+}
+
+.user-feedback-description {
+  color: var(--dark-grey);
+  font-size: 16px;
+  font-weight: 400;
+  margin: 16px 0;
+}
+.user-feedback-details {
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  gap: 16px;
+}
+.user-detail .user-title {
+  color: var(--gray);
+  font-size: 16px;
+  font-weight: 600;
+}
+.user-detail .user-subtitle {
+  color: var(--light-grey);
+  font-size: 16px;
+  font-weight: 400;
+}
+/* feedback item hover effect */
+.feedback-item:hover {
+  scale: 1.1;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
