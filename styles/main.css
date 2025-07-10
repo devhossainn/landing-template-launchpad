@@ -313,3 +313,29 @@ input {
 input[type="submit"] {
   width: 100%;
 }
+/* footer section styling */
+footer {
+  background-color: #fff;
+}
+.footer-section {
+  max-width: 530px;
+  margin: 0 auto;
+  padding: 120px 0;
+}
+.footer-section .logo {
+  color: var(--primary-color);
+  font-size: 100px;
+  font-weight: 700;
+}
+.footer-description,
+.list-item {
+  margin: 24px 0;
+  color: #8987a1;
+  font-size: 16px;
+}
+.footer-list ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 32px;
+}
