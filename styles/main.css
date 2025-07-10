@@ -252,6 +252,9 @@ header {
 .subscription-img {
   margin-top: 32px;
 }
+.subscription-img img {
+  border-radius: 16px;
+}
 /* get in touch section */
 .get-in-touch-section {
   display: flex;
