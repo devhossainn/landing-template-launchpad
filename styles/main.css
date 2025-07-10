@@ -6,7 +6,6 @@
 }
 body {
   background-color: var(--secondary-color);
-  font-size: 16px;
 }
 body a {
   text-decoration: none;
@@ -60,7 +59,7 @@ body li {
   background-color: var(--primary-color);
   text-decoration: none;
   font-size: 16px;
-  font-weight: 600;
+  font-weight: 400;
   padding: 12px 36px;
   border-radius: 10px;
 }
@@ -86,7 +85,15 @@ body li {
 
 /* repetitive styling end */
 
-/* navigation bar styling start */
+/* header styling */
+header {
+  background-image: url(/Assets/Hero-bg.png);
+  background-position: center;
+  background-repeat: repeat-x;
+}
+
+/* navigation bar styling */
+
 .grey-word {
   color: var(--light-red-color);
 }
@@ -94,10 +101,26 @@ body li {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 50px 0;
+  padding: 50px 0;
+  margin: 0 auto;
+}
+.navbar .primary-button {
+  font-weight: 600;
 }
 .navbar .logo {
   color: var(--primary-color);
   font-size: 2rem;
   font-weight: 600;
+}
+/* banner styling */
+.banner {
+  width: 900px;
+  padding: 160px 0;
+  margin: 0 auto;
+}
+.banner > .section-title {
+  color: var(--primary-text-color);
+  font-size: 65px;
+  font-weight: 700;
+  margin-bottom: 48px;
 }
