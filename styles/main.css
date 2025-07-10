@@ -66,6 +66,7 @@ body li {
   border-radius: 10px;
   transition: all 0.3s ease-out;
 }
+
 /* button hover effect */
 .primary-button:hover {
   color: var(--primary-color);
@@ -231,4 +232,23 @@ header {
 .feedback-item:hover {
   scale: 1.1;
   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+/* subscription section styling */
+.subscription-section {
+  background-color: #fff;
+  padding: 70px 150px;
+  border-radius: 10px;
+}
+.subscription-section button {
+  margin-top: 24px;
+}
+.subscription-section button a {
+  color: #fff;
+  font-weight: 500;
+}
+.subscription-section .section-subtitle {
+  font-size: 16px;
+}
+.subscription-img {
+  margin-top: 32px;
 }
