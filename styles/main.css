@@ -16,7 +16,7 @@ body li {
 
 /* css variables color */
 :root {
-  --primary-text-color: #252432;
+  --primary-text-color: #25243293;
   --primary-color: #4e47ff;
   --secondary-color: #f5f8ff;
   --light-red-color: #ff4747bd;
@@ -32,10 +32,10 @@ body li {
 }
 
 /* spacing */
-.section-top-spacing {
+.mt-14 {
   margin-top: 140px;
 }
-.section-bottom-spacing {
+.mb-14 {
   margin-bottom: 140px;
 }
 
@@ -59,7 +59,7 @@ body li {
   background-color: var(--primary-color);
   text-decoration: none;
   font-size: 16px;
-  font-weight: 400;
+  font-weight: 600;
   padding: 12px 36px;
   border-radius: 10px;
 }
@@ -69,9 +69,16 @@ body li {
 }
 /* title styling and text format */
 .section-title {
-  color: var(--primary-text-color);
+  margin: 10px 0;
+  color: var(--dark-grey);
   font-size: 42px;
-  font-weight: 600;
+  font-weight: 700;
+}
+.section-subtitle {
+  margin: 16px 0;
+  color: var(--primary-text-color);
+  font-size: 24px;
+  font-weight: 400;
 }
 .text-left {
   text-align: left;
@@ -104,23 +111,43 @@ header {
   padding: 50px 0;
   margin: 0 auto;
 }
-.navbar .primary-button {
-  font-weight: 600;
-}
+
 .navbar .logo {
   color: var(--primary-color);
   font-size: 2rem;
   font-weight: 600;
 }
-/* banner styling */
+/* banner section styling */
 .banner {
   width: 900px;
   padding: 160px 0;
   margin: 0 auto;
 }
 .banner > .section-title {
-  color: var(--primary-text-color);
+  color: var(--dark-grey);
   font-size: 65px;
   font-weight: 700;
   margin-bottom: 48px;
+}
+/* action section styling */
+.action-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.action-description {
+  width: 500px;
+}
+.action-description .section-subtitle {
+  margin-bottom: 30px;
+}
+.action-img img {
+  width: 100%;
+  border-radius: 48px;
+  transition: all ease-out 0.3s;
+  cursor: pointer;
+}
+/* hover effect within wc action img */
+.action-img img:hover {
+  scale: 0.9;
 }
