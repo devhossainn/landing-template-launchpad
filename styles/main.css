@@ -1,0 +1,61 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  background-color: var(--secondary-color);
+  font-size: 16px;
+}
+/* css variables color */
+:root {
+  --primary-text-color: #252432;
+  --primary-color: #4e47ff;
+  --secondary-color: #f5f8ff;
+  --gray: #757575;
+  --dark-grey: #1e1e1e;
+  --light-grey: #b3b3b3;
+}
+/* shared style */
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+.section-top-spacing {
+  margin-top: 140px;
+}
+.section-bottom-spacing {
+  margin-bottom: 140px;
+}
+.font-raleway {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+.primary-button {
+  color: #fff;
+  background-color: var(--primary-color);
+  font-size: 16px;
+  font-weight: 600;
+  padding: 12px 36px;
+  border-radius: 10px;
+}
+.border-none {
+  border: none;
+  outline: none;
+}
+.section-title {
+  color: var(--primary-text-color);
+  font-size: 42px;
+  font-weight: 600;
+}
+.text-left {
+  text-align: left;
+}
+.text-center {
+  text-align: center;
+}
+.text-right {
+  text-align: right;
+}
