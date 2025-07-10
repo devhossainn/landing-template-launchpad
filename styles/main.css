@@ -18,6 +18,7 @@ body li {
 :root {
   --primary-text-color: #25243293;
   --primary-color: #4e47ff;
+  --primary-bg-color: #e5e7ff;
   --secondary-color: #f5f8ff;
   --light-red-color: #ff4747bd;
   --gray: #757575;
@@ -144,10 +145,31 @@ header {
 .action-img img {
   width: 100%;
   border-radius: 48px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
   transition: all ease-out 0.3s;
   cursor: pointer;
 }
 /* hover effect within wc action img */
 .action-img img:hover {
-  scale: 0.9;
+  scale: 0.9.8;
+}
+/*  users section styling*/
+.users-section {
+  background: var(--primary-bg-color);
+  padding: 50px 80px;
+  border-radius: 24px;
+}
+.users-details {
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.users-data .users-data-title {
+  color: var(--primary-color);
+  font-size: 80px;
+  font-weight: 700;
+}
+.users-data .users-data-subtitle {
+  font-size: 20px;
 }
