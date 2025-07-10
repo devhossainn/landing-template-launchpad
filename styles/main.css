@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
 * {
   box-sizing: border-box;
   margin: 0px;
@@ -7,35 +8,57 @@ body {
   background-color: var(--secondary-color);
   font-size: 16px;
 }
+body a {
+  text-decoration: none;
+}
+body li {
+  list-style: none;
+}
+
 /* css variables color */
 :root {
   --primary-text-color: #252432;
   --primary-color: #4e47ff;
   --secondary-color: #f5f8ff;
+  --light-red-color: #ff4747bd;
   --gray: #757575;
   --dark-grey: #1e1e1e;
   --light-grey: #b3b3b3;
 }
-/* shared style */
+
+/* repetitive style start */
 .container {
   max-width: 1140px;
   margin: 0 auto;
 }
+
+/* spacing */
 .section-top-spacing {
   margin-top: 140px;
 }
 .section-bottom-spacing {
   margin-bottom: 140px;
 }
+
+/* font styles */
 .font-raleway {
   font-family: "Raleway", sans-serif;
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
 }
+
+.font-inter {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+/* customized button */
 .primary-button {
   color: #fff;
   background-color: var(--primary-color);
+  text-decoration: none;
   font-size: 16px;
   font-weight: 600;
   padding: 12px 36px;
@@ -45,6 +68,7 @@ body {
   border: none;
   outline: none;
 }
+/* title styling and text format */
 .section-title {
   color: var(--primary-text-color);
   font-size: 42px;
@@ -58,4 +82,22 @@ body {
 }
 .text-right {
   text-align: right;
+}
+
+/* repetitive styling end */
+
+/* navigation bar styling start */
+.grey-word {
+  color: var(--light-red-color);
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 50px 0;
+}
+.navbar .logo {
+  color: var(--primary-color);
+  font-size: 2rem;
+  font-weight: 600;
 }
