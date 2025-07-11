@@ -18,13 +18,13 @@
       <!-- navigation bar -->
       <nav class="container">
         <div class="navbar">
-          <p class="font-inter">
-            <a href="#" class="logo text-decoration-none">
-              LO<span class="grey-word">G</span>O
+          <div class="font-inter">
+            <a href="/" class="logo text-decoration-none">
+              OL<span class="grey-word">G</span>O
             </a>
-          </p>
+          </div>
           <button class="border-none">
-            <a href="#" class="primary-button">Sign up</a>
+            <a href="#contact" class="primary-button">Sign up</a>
           </button>
         </div>
       </nav>
@@ -35,7 +35,7 @@
             Cool Dark UI Template for Webflow Agencies!
           </h1>
           <button class="border-none">
-            <a href="#" class="text-decoration-none primary-button"
+            <a href="#contact" class="text-decoration-none primary-button"
               >Stay Focused</a
             >
           </button>
@@ -54,7 +54,7 @@
               look.
             </p>
             <button class="border-none">
-              <a href="#" class="primary-button text-decoration-none"
+              <a href="#ready-focus" class="primary-button text-decoration-none"
                 >Launch Live Preview</a
               >
             </button>
@@ -155,7 +155,7 @@
         </div>
       </section>
       <!-- subscription-section -->
-      <section class="container mt-14 mb-14">
+      <section id="ready-focus" class="container mt-14 mb-14">
         <div class="subscription-section text-center">
           <h2 class="section-title">Ready to focus better</h2>
           <p class="section-subtitle">
@@ -172,21 +172,27 @@
         </div>
       </section>
       <!--get in touch section  -->
-      <section class="container mt-14 mb-14">
+      <section class="container mt-14 mb-14" id="contact">
         <div class="get-in-touch-section">
           <h1 class="section-title">Let's Get in Touch</h1>
           <form>
             <div class="input-group">
               <label for="email">Email</label>
-              <input type="text" placeholder="example@email.com" id="email" />
+              <input
+                required
+                type="text"
+                placeholder="example@email.com"
+                id="email"
+              />
             </div>
             <div class="input-group">
               <label for="Name">Name</label>
-              <input type="text" id="Name" placeholder="full name" />
+              <input required type="text" id="Name" placeholder="full name" />
             </div>
             <div class="input-group">
               <label for="Massage">Massage</label>
               <textarea
+                required
                 name="Massage"
                 id="Massage"
                 placeholder="Massage"
@@ -200,11 +206,11 @@
     <!-- last part of webpage -->
     <footer>
       <section class="container footer-section text-center">
-        <p class="font-inter">
+        <div class="font-inter">
           <a href="#" class="logo text-decoration-none">
-            LO<span class="grey-word">G</span>O
+            OL<span class="grey-word">G</span>O
           </a>
-        </p>
+        </div>
         <p class="footer-description">
           Ready to elevate your online presence? Contact us today to discuss
           your project and discover how we can bring your vision to life.
