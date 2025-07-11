@@ -106,7 +106,7 @@ html {
 
 /* header styling */
 header {
-  background-image: url(/Assets/Hero-bg.png);
+  background-image: url(../Assets/Hero-bg.png);
   background-position: center;
   background-repeat: repeat-x;
 }
